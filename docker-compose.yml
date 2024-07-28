@@ -9,7 +9,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=hello_web_dev
+      - POSTGRES_DB=auth_dev
 
 volumes:
   postgres:
